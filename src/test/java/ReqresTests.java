@@ -36,6 +36,7 @@ public class ReqresTests {
                 .statusCode(200)
                 .body("token", is("QpwL5tke4Pnpja7X4"));
     }
+
     @Test
     void negativeLogin() {
         String data = "{ \"email\": \"peter@klaven\" }";
